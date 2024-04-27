@@ -1,0 +1,51 @@
+body{
+    background-color: #101820FF;
+}
+
+.title{
+    background-color:#F2AA4CFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    inset: 0px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-color:#F2AA4CFF;
+    width: 40rem;
+    height: 10rem;
+    border-radius: 5px;
+    position: fixed;
+    inset: 0px;
+    max-width: 100vw;
+    max-height: 100dvh;
+    margin: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    inset: 0px;
+    position: fixed;
+    margin-top: 80px;
+    gap: 4px;
+}
+
+#squaresContainer{
+    display: flex;
+    margin: 30px;
+    align-items: baseline;
+    justify-content: center;
+    inset: 0px;
+    gap: 5px;
+}
+
+.square{
+    border-radius: 4px;
+    border-style: outset;
+    border-color: #101820FF;
+}
